@@ -1,7 +1,7 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, PIDGEY
-	db  4, PIDGEY
+	db  5, ARCEUS
+	db  5, ARCEUS
 	db  5, ARCEUS
 	db  5, ARCEUS
 	db  5, ARCEUS

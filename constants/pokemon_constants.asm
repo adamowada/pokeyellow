@@ -37,7 +37,7 @@
 	const BLASTOISE          ; $1C
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
-	const_skip               ; $1F
+	const ARCEUS 						 ; $1F
 	const_skip               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
@@ -197,7 +197,6 @@
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
-	const ARCEUS 						 ; $BF
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

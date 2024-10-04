@@ -326,6 +326,8 @@ VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
 
 SECTION "Pics 6", ROMX
 
+ArceusPicFront::   INCBIN "gfx/pokemon/front/arceus.pic"
+ArceusPicBack::    INCBIN "gfx/pokemon/back/arceusb.pic"
 YoungsterPic::     INCBIN "gfx/trainers/youngster.pic"
 BugCatcherPic::    INCBIN "gfx/trainers/bugcatcher.pic"
 LassPic::          INCBIN "gfx/trainers/lass.pic"
@@ -371,12 +373,12 @@ Rival3Pic::        INCBIN "gfx/trainers/rival3.pic"
 LoreleiPic::       INCBIN "gfx/trainers/lorelei.pic"
 ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
-LancePic::         INCBIN "gfx/trainers/lance.pic"
-JessieJamesPic::   INCBIN "gfx/trainers/jessiejames.pic"
 
 
 SECTION "Pics 7", ROMX
 
+LancePic::         INCBIN "gfx/trainers/lance.pic"
+JessieJamesPic::   INCBIN "gfx/trainers/jessiejames.pic"
 RedPicBack::       INCBIN "gfx/player/redb.pic"
 OldManPicBack::    INCBIN "gfx/battle/oldmanb.pic"
 ProfOakPicBack::   INCBIN "gfx/battle/prof.oakb.pic"

@@ -190,6 +190,7 @@ PokedexEntryPointers:
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw ArceusDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1252,6 +1253,13 @@ MewDexEntry:
 	db 1,4
 	dw 90
 	text_far _MewDexEntry
+	text_end
+
+ArceusDexEntry:
+	db "ALPHA@"
+	db 10,6
+	dw 7055
+	text_far _ArceusDexEntry
 	text_end
 
 MissingNoDexEntry:

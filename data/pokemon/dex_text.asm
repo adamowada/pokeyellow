@@ -1506,3 +1506,13 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_ArceusDexEntry::
+	text "It is said to"
+	next "have emerged from"
+	next "an egg in a place"
+
+	page "where there was"
+	next "nothing then"
+	next "shaped the world"
+	dex

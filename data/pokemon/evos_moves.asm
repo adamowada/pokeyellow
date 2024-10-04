@@ -200,6 +200,7 @@ EvosMovesPointerTable:
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+	dw ArceusEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -2167,4 +2168,15 @@ VictreebelEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
+	db 0
+
+ArceusEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 6, HYPER_BEAM
+	db 66, PSYCHIC_M
+	db 70, RECOVER
+	db 75, MIST
+	db 81, AMNESIA
 	db 0

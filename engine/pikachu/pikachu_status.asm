@@ -76,6 +76,7 @@ IsThisPartymonStarterPikachu::
 	ld bc, wPartyMon2 - wPartyMon1
 	ld de, wPartyMonOT
 asm_fce21:
+	jr nz, .notPlayerPikachu   ; Jump directly to .notPlayerPikachu
 	ld a, [wWhichPokemon]
 	call AddNTimes
 	ld a, [hl]
